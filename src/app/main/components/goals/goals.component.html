@@ -18,7 +18,13 @@
 
         <!-- Progress Bar -->
         <div class="w-4/6 h-1 rounded-full bg-gray-700 overflow-hidden">
-            <div class="h-full bg-lime-400 transition-all duration-300" style="width: 71%;"></div>
+            <div class="h-full bg-lime-400 transition-all duration-300 animate-progress"></div>
         </div>
+        <!-- <div class="w-4/6 h-2 rounded-full bg-gray-700 overflow-hidden">
+            <div class="h-full bg-lime-400 transition-all duration-500 ease-in-out"
+                [ngStyle]="{ width: progress + '%' }">
+            </div>
+        </div> -->
+
     </div>
 </div>

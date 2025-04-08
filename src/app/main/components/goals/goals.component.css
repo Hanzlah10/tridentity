@@ -1,0 +1,15 @@
+@keyframes progressLoop {
+    0% {
+        width: 0%;
+      }
+      
+      100% {
+        width: 100%;
+      }
+      
+  }
+  
+  .animate-progress {
+    animation: progressLoop 4s ease-out infinite;
+  }
+  
