@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './goals.component.css'
 })
 export class GoalsComponent {
-  // progress = 15;
+  progress = 0;
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.progress = 71;
+    }, 100);
+  }
 }
