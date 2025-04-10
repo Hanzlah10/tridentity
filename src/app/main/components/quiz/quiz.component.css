@@ -22,14 +22,9 @@
 }
 
 .progress-bar-fill {
-    background: linear-gradient(90deg, #C03ECB 0%, #4269C0 100%);
+    background: linear-gradient(180deg, #000000f2 0%, #eb39b5 30%, #0e121a 100%);
     border-radius: 999px;
-    box-shadow: 0 0 10px rgba(192, 62, 203, 0.5);
-}
-
-.progress-marker {
-    border: 2px solid #FFEA00;
-    box-shadow: 0 0 5px #FFEA00;
+    /* box-shadow: 0 0 10px rgba(10, 41, 243, 0.876); */
 }
 
 .progress-trophy {
