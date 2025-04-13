@@ -3,14 +3,14 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: '',
-        loadChildren: () => import('./main/main.routes').then(m => m.homeRoutes)
+        loadChildren: () => import('./home/home.routes').then(m => m.homeRoutes)
     },
     {
         path: 'goals',
-        loadChildren: () => import('./main/main.routes').then(m => m.goalsRoutes)
+        loadChildren: () => import('./goals/goals.routes').then(m => m.goalRoutes)
     },
     {
         path: 'quiz',
-        loadChildren: () => import('./main/main.routes').then(m => m.quizRoutes)
+        loadChildren: () => import('./quiz/quiz.routes').then(m => m.quizRoutes)
     },
 ];
